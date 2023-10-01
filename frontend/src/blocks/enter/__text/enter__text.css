@@ -1,0 +1,16 @@
+.enter__text {
+  font-family: 'Inter', 'Arial', sans-serif;
+  color: #FFF;
+  text-align: center;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin: 15px 0 0;
+}
+
+@media screen and (max-width:425px) {
+  .enter__text {
+    margin-top: 20px;
+  }
+}

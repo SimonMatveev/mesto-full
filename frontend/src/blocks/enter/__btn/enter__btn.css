@@ -1,0 +1,26 @@
+.enter__btn {
+  font-family: 'Inter', 'Arial', sans-serif;
+  color: #000;
+  text-align: center;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  background-color: white;
+  border: 2px solid white;
+  border-radius: 2px;
+  width: 100%;
+  padding: 14px;
+  box-sizing: border-box;
+  margin-top: auto;
+  cursor: pointer;
+  transition: opacity .3s;
+}
+
+.enter__btn:not(.enter__btn_disabled):hover {
+  opacity: .85;
+}
+
+.enter__btn_disabled {
+  opacity: .4;
+}

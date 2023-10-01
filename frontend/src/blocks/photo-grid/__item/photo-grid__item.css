@@ -1,0 +1,14 @@
+.photo-grid__item {
+  width: 100%;
+  max-width: 550px;
+  background-color: #FFFFFF;
+  border-radius: 10px;
+  padding-bottom: 22px;
+  overflow: hidden;
+  min-height: 361px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: relative;
+}

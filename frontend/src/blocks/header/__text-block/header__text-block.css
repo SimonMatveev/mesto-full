@@ -1,0 +1,23 @@
+.header__text-block {
+  display: flex;
+  gap: 24px;
+  position: relative;
+}
+
+@media screen and (max-width: 768px) {
+  .header__text-block_logged {
+    position: absolute;
+    top: -142px;
+    left: 0;
+    width: 100%;
+    background-color: #000;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between  ;
+    padding: 40px;
+    box-sizing: border-box;
+    gap: 18px;
+    min-height: 142px;
+    border-bottom: 1px solid rgba(84, 84, 84, .7);
+  }
+}

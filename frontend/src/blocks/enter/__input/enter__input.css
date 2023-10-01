@@ -1,0 +1,18 @@
+.enter__input {
+  font-family: 'Inter', 'Arial', sans-serif;
+  color: #CCC;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  border: none;
+  border-bottom: 2px solid #CCC;
+  background-color: transparent;
+  padding-bottom: 13px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.enter__input:focus {
+  outline: none;
+}

@@ -1,0 +1,17 @@
+.photo-grid__item-delete {
+    width: 18px;
+    height: 19px;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    transition: opacity .2s;
+    cursor: pointer;
+    background-image: url(../../../images/Trash.svg);
+    background-size: contain;
+    background-color: transparent;
+    border: none;
+}
+
+.photo-grid__item-delete:hover {
+    opacity: .6;
+}

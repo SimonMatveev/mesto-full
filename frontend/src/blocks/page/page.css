@@ -1,0 +1,15 @@
+.page {
+  font-family: 'Inter', 'Arial', sans-serif;
+  background-color: black;
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  transition: transform .3s;
+}
+
+.page_translated {
+  transform: translateY(142px);
+}
