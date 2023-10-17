@@ -1,3 +1,5 @@
+import BASE_URL from "./baseUrl";
+
 class CardApi {
     constructor(options) {
         this._baseUrl = options.baseUrl;
@@ -119,7 +121,7 @@ class CardApi {
 }
 
 export const cardApi = new CardApi({
-    baseUrl: 'https://api.simonmatveev.nomoredomainsrocks.ru',
+    baseUrl: BASE_URL,
     headers: {
         'Content-Type': 'application/json',
     }

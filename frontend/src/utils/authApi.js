@@ -1,3 +1,5 @@
+import BASE_URL from "./baseUrl";
+
 class AuthApi {
   constructor(options) {
     this._baseUrl = options.baseUrl;
@@ -53,7 +55,7 @@ class AuthApi {
 }
 
 export const authApi = new AuthApi({
-  baseUrl: 'https://api.simonmatveev.nomoredomainsrocks.ru',
+  baseUrl: BASE_URL,
   headers: {
     'Content-Type': 'application/json'
   }

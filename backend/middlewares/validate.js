@@ -1,11 +1,11 @@
 const { celebrate, Joi } = require('celebrate');
-const regExpUrl = require('../utils/regexp');
+const REG_EXP_URL = require('../utils/regexp');
 
 const validateSignUp = celebrate({
   body: Joi.object().keys({
     name: Joi.string().min(2).max(30),
     about: Joi.string().min(2).max(30),
-    avatar: Joi.string().pattern(regExpUrl, { name: 'url' }),
+    avatar: Joi.string().pattern(REG_EXP_URL, { name: 'url' }),
     email: Joi.string().email().required(),
     password: Joi.string().required(),
   }),
