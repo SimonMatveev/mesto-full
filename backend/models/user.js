@@ -2,6 +2,7 @@ const mongoose = require('mongoose');
 const validator = require('validator');
 const bcrypt = require('bcryptjs');
 const AuthError = require('../errors/AuthError');
+const REG_EXP_URL = require('../utils/regexp');
 
 const userSchema = new mongoose.Schema({
   name: {
@@ -23,10 +24,7 @@ const userSchema = new mongoose.Schema({
     required: true,
     default: 'https://pictures.s3.yandex.net/resources/jacques-cousteau_1604399756.png',
     validate: {
-      validator: (v) => {
-        const regExp = /https?:\/\/(www\.)?[-a-zA-Z0-9@:%._+~#=]{1,256}\.[a-zA-Z0-9]{1,6}\b([-a-zA-Z0-9()@:%_+.~?&//=]*)#?/;
-        return regExp.test(v);
-      },
+      validator: (v) => REG_EXP_URL.test(v),
     },
   },
   email: {
