@@ -1,4 +1,5 @@
 const mongoose = require('mongoose');
+
 const REG_EXP_URL = require('../utils/regexp');
 
 const cardSchema = new mongoose.Schema({
