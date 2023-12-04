@@ -12,7 +12,7 @@
 ## Стек технологий
 
 * **Фронтенд** - HTML, JS, CSS, React.
-* **Бэкенд** - Node, Express.js, Mongo DB.
+* **Бэкенд** - Node, JS, Express.js, Mongo DB.
   
 ## Запуск проекта 
 
@@ -23,7 +23,7 @@
 
 2. Для обоих частей приложения:
 ```
-npm install
+npm ci
 ```
 
 3. Для фронтенда:
