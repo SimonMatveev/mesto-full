@@ -31,7 +31,8 @@ npm install
 npm run build
 ```
 
-3. Для бэкенда:
+4. Для бэкенда:
 ```
 npm run start
 ```
+(требуется установленная MongoDB)
